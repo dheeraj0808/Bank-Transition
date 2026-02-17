@@ -1,4 +1,4 @@
-# Bank-Transition 🏦
+# Bank-Transition-Backend 🏦
 
 A RESTful API backend application for banking operations built with Node.js, Express, and MySQL. This project provides user authentication, account management, and transaction handling capabilities.
 
@@ -71,8 +71,8 @@ Before running this application, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/dheeraj0808/Bank-Transition.git
-   cd Bank-Transition
+   git clone https://github.com/dheeraj0808/Bank-Transition-Backend.git
+   cd Bank-Transition-Backend
    ```
 
 2. **Install dependencies**
@@ -93,7 +93,7 @@ Before running this application, ensure you have the following installed:
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=your_mysql_password
-   DB_DATABASE=Bank-Transition
+   DB_DATABASE=Bank-Transition-Backend
    DB_PORT=3306
 
    # Server Configuration
@@ -113,7 +113,7 @@ Before running this application, ensure you have the following installed:
    mysql -u root -p
    ```
    ```sql
-   CREATE DATABASE `Bank-Transition`;
+   CREATE DATABASE `Bank-Transition-Backend`;
    EXIT;
    ```
 
@@ -284,8 +284,8 @@ This project is licensed under the ISC License.
 
 ## 🔗 Links
 
-- **Repository**: [https://github.com/dheeraj0808/Bank-Transition](https://github.com/dheeraj0808/Bank-Transition)
-- **Issues**: [https://github.com/dheeraj0808/Bank-Transition/issues](https://github.com/dheeraj0808/Bank-Transition/issues)
+- **Repository**: [https://github.com/dheeraj0808/Bank-Transition-Backend](https://github.com/dheeraj0808/Bank-Transition-Backend)
+- **Issues**: [https://github.com/dheeraj0808/Bank-Transition-Backend/issues](https://github.com/dheeraj0808/Bank-Transition-Backend/issues)
 
 ---
 

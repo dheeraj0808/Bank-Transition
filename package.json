@@ -1,5 +1,5 @@
 {
-  "name": "bank-transition",
+  "name": "bank-transition-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dheeraj0808/Bank-Transition.git"
+    "url": "git+https://github.com/dheeraj0808/Bank-Transition-Backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/dheeraj0808/Bank-Transition/issues"
+    "url": "https://github.com/dheeraj0808/Bank-Transition-Backend/issues"
   },
-  "homepage": "https://github.com/dheeraj0808/Bank-Transition#readme",
+  "homepage": "https://github.com/dheeraj0808/Bank-Transition-Backend#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",

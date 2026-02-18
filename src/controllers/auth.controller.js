@@ -1,6 +1,7 @@
 const { FaFileDownload } = require("react-icons/fa");
 const userModel = require("../models/user.model");
 const jwt = require("jsonwebtoken");
+// const { sendRegistrationEmail } = require("../Services/email.service");
 
 //user register controller
 // POST /api/auth/register
@@ -60,6 +61,8 @@ async function userLoginController(req, res) {
     }
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '1d' })
     res.cookie("token", token)
+    // await sendRegistrationEmail(user.email, user.name)
+
     return res.status(200).json(
         {
             user: {

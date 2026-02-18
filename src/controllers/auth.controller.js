@@ -38,7 +38,9 @@ async function userRegisterController(req, res) {
 
 }
 //login controller
-function userLoginController(req, res) {
+async function userLoginController(req, res) {
+    const { email, password } = req.body;
+    
 
 }
 
